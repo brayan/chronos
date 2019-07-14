@@ -7,7 +7,9 @@ const statusView = document.getElementById("status");
 const minutesView = document.getElementById("minutes");
 const secondsView = document.getElementById("seconds");
 
-function setViews(timer, date) {
+function setViews(date) {
+    const timer = createTimer(date);
+    
     setSprint(timer);
     setStatus(timer, date);
     setTimer(timer);
@@ -54,5 +56,5 @@ function setTextColor(color) {
 }
 
 function addZeroIfNeeded(timer) {
-    return (timer >= 0 & timer < 10) ? ("0" + timer) : timer;
+    return (timer >= 0 && timer < 10) ? ("0" + timer) : timer;
 }

@@ -1,8 +1,6 @@
 startTimer();
 
 function startTimer() {
-    const date = new Date();
-    const timer = createTimer(date);
-    setViews(timer, date);
+    setViews(new Date());
     setTimeout(startTimer, 1000);
 }
