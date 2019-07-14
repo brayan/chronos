@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#sprint {
+    color: #4d4d4d;
+    margin: 0;
+    font-size: 30px;
+}
+
+#status {
+    color: #37abc8;
+    margin: 0;
+    font-size: 20px;
+}
+
+#minutes {
+    display: inline;
+    margin: 0;
+    font-size: 100px;
+    font-weight: 200;
+    color: #ff8080;
+    /* Red: ff8080ff*/
+}
+
+#seconds {
+    display: inline;
+    margin: 0;
+    font-size: 50px;
+    color: #ffaaaa;
+}
