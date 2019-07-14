@@ -2,30 +2,29 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    padding: 28px;
+}
+
 #sprint {
     color: #4d4d4d;
     margin: 0;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 #status {
-    color: #37abc8;
     margin: 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #minutes {
     display: inline;
     margin: 0;
-    font-size: 100px;
-    font-weight: 200;
-    color: #ff8080;
-    /* Red: ff8080ff*/
+    font-size: 80px;
 }
 
 #seconds {
     display: inline;
     margin: 0;
     font-size: 50px;
-    color: #ffaaaa;
 }

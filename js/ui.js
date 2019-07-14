@@ -10,7 +10,7 @@ const COLOR_LAST_10_MINUTES = "#ff8080";
 function updateViews(timer, clock) {
     showSprint(timer, clock);
     showTimer(timer, clock);
-    showStatus(clock);
+    showStatus(timer, clock);
 }
 
 function showTimer(timer, clock) {
@@ -33,12 +33,15 @@ function showSprint(timer, clock) {
     sprintView.innerText = `Sprint ${addZeroIfNeeded(timer.sprint)}`
 }
 
-function showStatus(clock) {
-    if (isInProgress(clock)) {
+function showStatus(timer, clock) {
+    if (isInProgress(clock) && timer.minutes < 10) {
+        statusView.innerText = "In progress (last minutes)";
+        statusView.style.color = COLOR_LAST_10_MINUTES;
+    } else if (isInProgress(clock)) {
         statusView.innerText = "In progress";
         statusView.style.color = COLOR_IN_PROGRESS;
     } else {
-        statusView.innerText = "Resting";
+        statusView.innerText = "Break";
         statusView.style.color = COLOR_RESTING;
     }
 }
