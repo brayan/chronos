@@ -1,6 +1,6 @@
 const COLOR_IN_PROGRESS = "#80b3ff";
 const COLOR_BREAK = "#37c8ab";
-const COLOR_LAST_10_MINUTES = "#ff8080";
+const COLOR_LAST_MINUTES = "#ff8080";
 
 const sprintView = document.getElementById("sprint");
 const statusView = document.getElementById("status");
@@ -38,7 +38,7 @@ function setTimer(timer) {
 
 function setColors(timer, date) {
     if (isInProgress(date) && timer.minutes < 10) {
-        setTextColor(COLOR_LAST_10_MINUTES);
+        setTextColor(COLOR_LAST_MINUTES);
 
     } else if (isInProgress(date)) {
         setTextColor(COLOR_IN_PROGRESS);

@@ -3,9 +3,9 @@ function createTimer(date) {
     let seconds = 0;
 
     if (isInProgress(date)) {
-        minutes = 59 - date.getMinutes();
+        minutes = 49 - date.getMinutes();
     } else {
-        minutes = 9 - date.getMinutes();
+        minutes = 59 - date.getMinutes();
     }
 
     seconds = 60 - date.getSeconds();
@@ -21,5 +21,27 @@ function createTimer(date) {
 }
 
 function isInProgress(date) {
-    return (date.getMinutes() >= 10 && date.getMinutes() <= 59);
+    return (date.getMinutes() >= 0 && date.getMinutes() < 50);
 }
+
+class DateMock {
+
+    constructor(hours, minutes, seconds) {
+        this.hours = hours;
+        this.minutes = minutes;
+        this.seconds = seconds;
+    }
+
+    getSeconds() {
+        return this.seconds;
+    }
+
+    getMinutes() {
+        return this.minutes;
+    }
+
+    getHours() {
+        return this.hours;
+    }
+
+} 
