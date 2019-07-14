@@ -2,12 +2,10 @@ function createTimer(clock) {
     let minutes = 0;
     let seconds = 0;
 
-    if (clock.getMinutes() >= 0 && clock.getMinutes() < 10) {
-        minutes = 9 - clock.getMinutes();
-    }
-
-    if (clock.getMinutes() >= 10 && clock.getMinutes() <= 59) {
+    if (isInProgress(clock)) {
         minutes = 59 - clock.getMinutes();
+    } else {
+        minutes = 9 - clock.getMinutes();
     }
 
     seconds = 60 - clock.getSeconds();
@@ -17,5 +15,11 @@ function createTimer(clock) {
         minutes++;
     }
 
-    return { minutes, seconds };
+    const sprint = clock.getHours();
+
+    return { sprint, minutes, seconds };
+}
+
+function isInProgress(clock) {
+    return (clock.getMinutes() >= 10 && clock.getMinutes() <= 59);
 }
