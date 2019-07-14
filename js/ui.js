@@ -9,7 +9,6 @@ const secondsView = document.getElementById("seconds");
 
 function setViews(date) {
     const timer = createTimer(date);
-    
     setSprint(timer);
     setStatus(timer, date);
     setTimer(timer);
@@ -43,7 +42,7 @@ function setColors(timer, date) {
 
     } else if (isInProgress(date)) {
         setTextColor(COLOR_IN_PROGRESS);
-
+        
     } else {
         setTextColor(COLOR_BREAK);
     }
