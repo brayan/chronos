@@ -1,25 +1,25 @@
-function createTimer(clock) {
+function createTimer(date) {
     let minutes = 0;
     let seconds = 0;
 
-    if (isInProgress(clock)) {
-        minutes = 59 - clock.getMinutes();
+    if (isInProgress(date)) {
+        minutes = 59 - date.getMinutes();
     } else {
-        minutes = 9 - clock.getMinutes();
+        minutes = 9 - date.getMinutes();
     }
 
-    seconds = 60 - clock.getSeconds();
+    seconds = 60 - date.getSeconds();
 
     if (seconds == 60) {
         seconds = 0;
         minutes++;
     }
 
-    const sprint = clock.getHours();
+    const sprint = date.getHours();
 
     return { sprint, minutes, seconds };
 }
 
-function isInProgress(clock) {
-    return (clock.getMinutes() >= 10 && clock.getMinutes() <= 59);
+function isInProgress(date) {
+    return (date.getMinutes() >= 10 && date.getMinutes() <= 59);
 }

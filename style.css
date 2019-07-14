@@ -1,4 +1,6 @@
-* {
+p {
+    color: #4d4d4d;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -7,24 +9,19 @@
 }
 
 #sprint {
-    color: #4d4d4d;
-    margin: 0;
     font-size: 32px;
 }
 
 #status {
-    margin: 0;
     font-size: 30px;
 }
 
 #minutes {
     display: inline;
-    margin: 0;
     font-size: 80px;
 }
 
 #seconds {
     display: inline;
-    margin: 0;
     font-size: 50px;
 }
