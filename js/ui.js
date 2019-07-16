@@ -20,7 +20,7 @@ function setSprint(timer) {
 }
 
 function setStatus(timer, date) {
-    if (isInProgress(date) && timer.minutes < 10) {
+    if (isInTheLastMinutesOfTheSprint(timer, date)) {
         statusView.innerText = "In progress (last minutes)";
 
     } else if (isInProgress(date)) {
@@ -37,12 +37,12 @@ function setTimer(timer) {
 }
 
 function setColors(timer, date) {
-    if (isInProgress(date) && timer.minutes < 10) {
+    if (isInTheLastMinutesOfTheSprint(timer, date)) {
         setTextColor(COLOR_LAST_MINUTES);
 
     } else if (isInProgress(date)) {
         setTextColor(COLOR_IN_PROGRESS);
-        
+
     } else {
         setTextColor(COLOR_BREAK);
     }

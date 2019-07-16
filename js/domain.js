@@ -24,6 +24,11 @@ function isInProgress(date) {
     return (date.getMinutes() >= 0 && date.getMinutes() < 50);
 }
 
+function isInTheLastMinutesOfTheSprint(timer, date) {
+    const { minutes, seconds } = timer;
+    return isInProgress(date) && ((minutes < 10) || (minutes == 10 && seconds == 0));
+}
+
 class DateMock {
 
     constructor(hours, minutes, seconds) {
