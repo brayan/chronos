@@ -7,27 +7,29 @@ const statusView = document.getElementById("status");
 const minutesView = document.getElementById("minutes");
 const secondsView = document.getElementById("seconds");
 
-function setViews(date) {
-    const timer = createTimer(date);
+function setViews(timer) {
     setSprint(timer);
-    setStatus(timer, date);
+    setStatus(timer);
     setTimer(timer);
-    setColors(timer, date);
+    setColors(timer);
 }
 
 function setSprint(timer) {
     sprintView.innerText = `Sprint ${addZeroIfNeeded(timer.sprint)}`;
 }
 
-function setStatus(timer, date) {
-    if (isInTheLastMinutesOfTheSprint(timer, date)) {
-        statusView.innerText = "In progress (last minutes)";
+function setStatus(timer) {
+    switch (timer.status) {
+        case statusTypes.IN_PROGRESS:
+            statusView.innerText = "In progress";
+            break;
 
-    } else if (isInProgress(date)) {
-        statusView.innerText = "In progress";
+        case statusTypes.LAST_MINUTES:
+            statusView.innerText = "In progress (last minutes)";
+            break;
 
-    } else {
-        statusView.innerText = "Break";
+        default:
+            statusView.innerText = "Break";
     }
 }
 
@@ -36,15 +38,18 @@ function setTimer(timer) {
     secondsView.innerText = addZeroIfNeeded(timer.seconds);
 }
 
-function setColors(timer, date) {
-    if (isInTheLastMinutesOfTheSprint(timer, date)) {
-        setTextColor(COLOR_LAST_MINUTES);
+function setColors(timer) {
+    switch (timer.status) {
+        case statusTypes.IN_PROGRESS:
+            setTextColor(COLOR_IN_PROGRESS);
+            break;
 
-    } else if (isInProgress(date)) {
-        setTextColor(COLOR_IN_PROGRESS);
+        case statusTypes.LAST_MINUTES:
+            setTextColor(COLOR_LAST_MINUTES);
+            break;
 
-    } else {
-        setTextColor(COLOR_BREAK);
+        default:
+            setTextColor(COLOR_BREAK);
     }
 }
 
