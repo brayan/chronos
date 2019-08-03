@@ -1,4 +1,4 @@
-# ![](design/icon.svg)
+# ![](design/header.svg)
 Inspired by the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), this nice little app follows my traditional work model: 50 minutes of focused work and 10 minute break.
 
 ## Architecture
