@@ -1,5 +1,5 @@
 {
-  "name": "js-chronos",
+  "name": "chronos",
   "version": "1.0.0",
   "description": "Inspired by the Pomodoro Technique, this nice little app follows my traditional work model: 50 minutes of focused work and 10 minute break.",
   "private": true,
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brayan/js-timer.git"
+    "url": "git+https://github.com/brayan/chronos.git"
   },
   "author": "Brayan Bedritchuk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brayan/js-timer/issues"
+    "url": "https://github.com/brayan/chronos/issues"
   },
   "homepage": "https://brayan.com.br/chronos/",
   "devDependencies": {
