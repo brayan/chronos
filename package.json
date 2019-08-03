@@ -1,0 +1,32 @@
+{
+  "name": "js-chronos",
+  "version": "1.0.0",
+  "description": "Inspired by the Pomodoro Technique, this nice little app follows my traditional work model: 50 minutes of focused work and 10 minute break.",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --colors",
+    "build-dev": "webpack --mode=development",
+    "build-prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayan/js-timer.git"
+  },
+  "author": "Brayan Bedritchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brayan/js-timer/issues"
+  },
+  "homepage": "https://brayan.com.br/chronos/",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.8.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}

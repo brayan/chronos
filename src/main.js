@@ -1,7 +1,8 @@
+import setViews from "./ui";
+
 startTimer();
 
 function startTimer() {
-    const timer = createTimer(new Date());
-    setViews(timer);
+    setViews(new Date());
     setTimeout(startTimer, 1000);
 }

@@ -1,10 +1,10 @@
-const statusTypes = {
+export const statusTypes = {
     IN_PROGRESS: 0,
     LAST_MINUTES: 1,
     BREAK: 2
-}
+};
 
-function createTimer(date) {
+export function createTimer(date) {
     let minutes = 0;
     let seconds = 0;
 
@@ -46,26 +46,4 @@ function isInProgress(date) {
 function isInTheLastMinutesOfTheSprint(date, timer) {
     const { minutes, seconds } = timer;
     return isInProgress(date) && ((minutes < 10) || (minutes == 10 && seconds == 0));
-}
-
-class DateMock {
-
-    constructor(hours, minutes, seconds) {
-        this.hours = hours;
-        this.minutes = minutes;
-        this.seconds = seconds;
-    }
-
-    getSeconds() {
-        return this.seconds;
-    }
-
-    getMinutes() {
-        return this.minutes;
-    }
-
-    getHours() {
-        return this.hours;
-    }
-
 }

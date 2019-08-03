@@ -1,3 +1,5 @@
+import { statusTypes, createTimer } from "./domain";
+
 const COLOR_IN_PROGRESS = "#80b3ff";
 const COLOR_LAST_MINUTES = "#ff8080";
 const COLOR_BREAK = "#37c8ab";
@@ -7,7 +9,8 @@ const statusView = document.getElementById("status");
 const minutesView = document.getElementById("minutes");
 const secondsView = document.getElementById("seconds");
 
-function setViews(timer) {
+export default function setViews(date) {
+    const timer = createTimer(date);
     setSprint(timer);
     setStatus(timer);
     setTimer(timer);
