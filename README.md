@@ -1,5 +1,5 @@
 # ![](design/header.svg)
-Inspired by the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), this nice little app follows my traditional work model: 50 minutes of focused work and 10 minute break.
+Inspired by the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), this nice little app is a countdown timer that follows my traditional work model: 50 minutes of focused work and 10 minute break.
 
 ## Architecture
 Based on the principles of Clean Architecture, the app has been divided into 3 layers: Main, UI, and Domain.

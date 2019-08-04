@@ -104,8 +104,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="229.20759"
-     inkscape:cy="193.71516"
+     inkscape:cx="730.82066"
+     inkscape:cy="-133.22522"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -136,7 +136,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -703,70 +703,66 @@
        rx="35.983334"
        ry="8.9958334"
        transform="matrix(0.48487682,0,0,0.21954723,-544.74708,181.33968)" />
-    <g
-       id="g4573"
-       transform="matrix(0.24674533,0,0,0.24674533,-449.29726,134.09997)">
-      <circle
-         r="62.781464"
-         cy="255.56786"
-         cx="-354.51974"
-         id="circle4635"
-         style="opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:8.71964836;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <circle
-         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.38747883;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle4637"
-         cx="-354.51974"
-         cy="255.56786"
-         r="53.189846" />
-      <circle
-         r="9.8789988"
-         cy="223.95013"
-         cx="-354.51974"
-         id="circle4639"
-         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <circle
-         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle4641"
-         cx="-354.51974"
-         cy="287.18558"
-         r="9.8789988" />
-      <circle
-         r="9.8789988"
-         cy="403.18933"
-         cx="44.068375"
-         id="circle4643"
-         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         transform="rotate(60)" />
-      <circle
-         style="opacity:1;vector-effect:none;fill:#ffdbdb;fill-opacity:1;stroke:#ff8080;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle4645"
-         cx="44.068375"
-         cy="466.42474"
-         r="9.8789988"
-         transform="rotate(60)" />
-      <circle
-         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle4647"
-         cx="398.58813"
-         cy="147.62146"
-         r="9.8789988"
-         transform="rotate(120)" />
-      <circle
-         r="9.8789988"
-         cy="210.85687"
-         cx="398.58813"
-         id="circle4649"
-         style="opacity:1;vector-effect:none;fill:#e3f7f3;fill-opacity:1;stroke:#37c8ab;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         transform="rotate(120)" />
-      <rect
-         style="opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4838"
-         width="51.329166"
-         height="12.170834"
-         x="-380.18436"
-         y="175.39909"
-         ry="6.0854168" />
-    </g>
+    <circle
+       style="opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:2.15153241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4635"
+       cx="-536.77338"
+       cy="197.16014"
+       r="15.491033" />
+    <circle
+       r="13.124346"
+       cy="197.16014"
+       cx="-536.77338"
+       id="circle4637"
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.82282591;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4639"
+       cx="-536.77338"
+       cy="189.35863"
+       r="2.4375968" />
+    <circle
+       r="2.4375968"
+       cy="204.96167"
+       cx="-536.77338"
+       id="circle4641"
+       style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       transform="rotate(59.999999)"
+       style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4643"
+       cx="-97.640999"
+       cy="555.63788"
+       r="2.4375968" />
+    <circle
+       transform="rotate(59.999999)"
+       r="2.4375968"
+       cy="571.24097"
+       cx="-97.640999"
+       id="circle4645"
+       style="opacity:1;vector-effect:none;fill:#ffdbdb;fill-opacity:1;stroke:#ff8080;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       transform="rotate(120)"
+       r="2.4375968"
+       cy="358.47775"
+       cx="439.13235"
+       id="circle4647"
+       style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       transform="rotate(120)"
+       style="opacity:1;vector-effect:none;fill:#e3f7f3;fill-opacity:1;stroke:#37c8ab;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4649"
+       cx="439.13235"
+       cy="374.08081"
+       r="2.4375968" />
+    <rect
+       ry="1.5015482"
+       y="177.37888"
+       x="-543.10596"
+       height="3.0030963"
+       width="12.665232"
+       id="rect4838"
+       style="opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <circle
        r="15.491033"
        cy="197.16014"
@@ -858,5 +854,139 @@
        x="-583.96606"
        y="177.37888"
        ry="1.5015482" />
+    <g
+       transform="translate(17.842823,11.883506)"
+       id="g4535">
+      <circle
+         r="2.4375968"
+         cy="730.43994"
+         cx="-109.55809"
+         id="circle4527"
+         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         transform="rotate(59.999999)" />
+      <circle
+         transform="rotate(59.999999)"
+         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4529"
+         cx="-105.62925"
+         cy="723.63477"
+         r="2.4375968" />
+      <circle
+         transform="rotate(59.999999)"
+         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4531"
+         cx="-102.67207"
+         cy="734.41583"
+         r="2.4375968" />
+      <circle
+         r="2.4375968"
+         cy="727.61066"
+         cx="-98.743233"
+         id="circle4533"
+         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         transform="rotate(59.999999)" />
+    </g>
+    <text
+       id="text4539"
+       y="287.77139"
+       x="-651.42383"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.26458332"
+         y="287.77139"
+         x="-651.42383"
+         id="tspan4537"
+         sodipodi:role="line">The 4 blue circles represent the first 40 minutes of the sprint.</tspan></text>
+    <circle
+       transform="rotate(59.999999)"
+       r="2.4375968"
+       cy="727.13348"
+       cx="-71.741714"
+       id="circle4541"
+       style="opacity:1;vector-effect:none;fill:#ffdbdb;fill-opacity:1;stroke:#ff8080;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-651.42383"
+       y="302.98001"
+       id="text4545"><tspan
+         sodipodi:role="line"
+         id="tspan4543"
+         x="-651.42383"
+         y="302.98001"
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.26458332">The red circle represents the last 10 minutes.</tspan></text>
+    <circle
+       transform="rotate(120)"
+       style="opacity:1;vector-effect:none;fill:#e3f7f3;fill-opacity:1;stroke:#37c8ab;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4547"
+       cx="606.19104"
+       cy="418.56903"
+       r="2.4375968" />
+    <g
+       transform="translate(-167.34523,18.394156)"
+       id="g4562">
+      <circle
+         r="2.4375968"
+         cy="236.1308"
+         cx="-497.85895"
+         id="circle4549"
+         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4552"
+         cx="-497.85895"
+         cy="251.73384"
+         r="2.4375968" />
+      <circle
+         r="2.4375968"
+         cy="545.32306"
+         cx="-37.677891"
+         id="circle4554"
+         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         transform="rotate(59.999999)" />
+      <circle
+         style="opacity:1;vector-effect:none;fill:#ffdbdb;fill-opacity:1;stroke:#ff8080;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4556"
+         cx="-37.677891"
+         cy="560.92615"
+         r="2.4375968"
+         transform="rotate(59.999999)" />
+      <circle
+         style="opacity:1;vector-effect:none;fill:#dbe9ff;fill-opacity:1;stroke:#80b3ff;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4558"
+         cx="460.18103"
+         cy="301.39078"
+         r="2.4375968"
+         transform="rotate(120)" />
+      <circle
+         r="2.4375968"
+         cy="316.99384"
+         cx="460.18103"
+         id="circle4560"
+         style="opacity:1;vector-effect:none;fill:#e3f7f3;fill-opacity:1;stroke:#37c8ab;stroke-width:1.30569398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         transform="rotate(120)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-652.25812"
+       y="269.15961"
+       id="text4566"><tspan
+         sodipodi:role="line"
+         id="tspan4564"
+         x="-652.25812"
+         y="269.15961"
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.26458332">Each small circle represents 10 minutes.</tspan></text>
+    <text
+       id="text4570"
+       y="317.25085"
+       x="-651.42383"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.26458332"
+         y="317.25085"
+         x="-651.42383"
+         id="tspan4568"
+         sodipodi:role="line">The green circle represents the break before starting a new sprint.</tspan></text>
   </g>
 </svg>
