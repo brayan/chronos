@@ -3,9 +3,9 @@ Inspired by the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Tech
 
 ## Built with
 * Vanilla JavaScript.
-* [Jest](https://jestjs.io/): A JavaScript Testing Framework with a focus on simplicity.
-* [Webpack](https://webpack.js.org/): A JavaScript module bundler.
-* [Babel](https://babeljs.io/): A JavaScript compiler that is mainly used to convert ES6+ code into a backwards compatible version of JavaScript.
+* [Jest](https://jestjs.io/) - A JavaScript Testing Framework with a focus on simplicity.
+* [Webpack](https://webpack.js.org/) - A JavaScript module bundler.
+* [Babel](https://babeljs.io/) - A JavaScript compiler that is mainly used to convert ES6+ code into a backwards compatible version of JavaScript.
 
 ## Architecture
 Based on the principles of Clean Architecture, the app has been divided into 3 layers: Main, UI, and Domain.
@@ -27,5 +27,8 @@ Based on the principles of Clean Architecture, the app has been divided into 3 l
 ![](design/screenshots/02.png)
 ![](design/screenshots/03.png)
 
-## Iterations of icon design
+## Color palette
+![](design/color-palette.svg)
+
+## Icon design experiments
 ![](design/icon-iterations.svg)

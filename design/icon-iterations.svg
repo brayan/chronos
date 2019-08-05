@@ -103,9 +103,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="730.82066"
-     inkscape:cy="-133.22522"
+     inkscape:zoom="1"
+     inkscape:cx="580.1214"
+     inkscape:cy="286.927"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -702,7 +702,7 @@
        cy="142.61818"
        rx="35.983334"
        ry="8.9958334"
-       transform="matrix(0.48487682,0,0,0.21954723,-544.74708,181.33968)" />
+       transform="matrix(0.33254301,0,0,0.21954723,-542.242,181.33968)" />
     <circle
        style="opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:2.15153241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle4635"

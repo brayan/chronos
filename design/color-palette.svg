@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="552.42926"
+   height="86.532364"
+   viewBox="0 0 146.16357 22.895022"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="color-palette.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="523.44707"
+     inkscape:cy="28.328359"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     showborder="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(233.2162,-137.56505)">
+    <circle
+       style="opacity:1;vector-effect:none;fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:0.98976725;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4314"
+       cx="-223.87648"
+       cy="144.69138"
+       r="7.1263242" />
+    <circle
+       r="7.1263242"
+       cy="144.69138"
+       cx="-181.60536"
+       id="circle4316"
+       style="opacity:1;vector-effect:none;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:0.98976725;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       style="opacity:1;vector-effect:none;fill:#37c8ab;fill-opacity:1;stroke:none;stroke-width:0.98976725;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4318"
+       cx="-139.33423"
+       cy="144.69138"
+       r="7.1263242" />
+    <circle
+       r="7.1263242"
+       cy="144.69138"
+       cx="-97.063095"
+       id="circle4320"
+       style="opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.98976725;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.60684538px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26282084"
+       x="-233.52283"
+       y="160.40532"
+       id="text5049"><tspan
+         sodipodi:role="line"
+         id="tspan5047"
+         x="-233.52283"
+         y="160.40532"
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.26282084">80B3FF</tspan></text>
+    <text
+       id="text5053"
+       y="160.40532"
+       x="-191.08197"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.60684538px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26282084"
+       xml:space="preserve"><tspan
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.26282084"
+         y="160.40532"
+         x="-191.08197"
+         id="tspan5051"
+         sodipodi:role="line">FF8080</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.60684538px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26282084"
+       x="-149.43367"
+       y="160.40532"
+       id="text5057"><tspan
+         sodipodi:role="line"
+         id="tspan5055"
+         x="-149.43367"
+         y="160.40532"
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.26282084">37C8AB</tspan></text>
+    <text
+       id="text5061"
+       y="160.40532"
+       x="-107.21866"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.60684538px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26282084"
+       xml:space="preserve"><tspan
+         style="fill:#4d4d4d;fill-opacity:1;stroke-width:0.26282084"
+         y="160.40532"
+         x="-107.21866"
+         id="tspan5059"
+         sodipodi:role="line">4D4D4D</tspan></text>
+  </g>
+</svg>
