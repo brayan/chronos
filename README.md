@@ -16,7 +16,7 @@ Based on the principles of Clean Architecture, the app has been divided into 3 l
 * UI contains all the presentation rules. It only depends on the Domain layer.
 * Domain contains all the business rules. It doesn't depend on any layer.
 
-## Principles applied
+## Principles
 * [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 * [Minimalism](https://visme.co/blog/minimalist-graphic-design/)
