@@ -3,6 +3,7 @@ Inspired by the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Tech
 
 ## Built with
 * Vanilla JavaScript.
+* [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) - A type of mobile app delivered through the web.
 * [Jest](https://jestjs.io/) - A JavaScript Testing Framework with a focus on simplicity.
 * [Webpack](https://webpack.js.org/) - A JavaScript module bundler.
 * [Babel](https://babeljs.io/) - A JavaScript compiler that is mainly used to convert ES6+ code into a backwards compatible version of JavaScript.
