@@ -2,7 +2,6 @@
 Inspired by the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), this nice little app is a countdown timer that follows my traditional work model: 50 minutes of focused work and 10 minute break.
 
 ## Built with
-* Vanilla JavaScript.
 * [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) - A type of mobile app delivered through the web.
 * [Jest](https://jestjs.io/) - A JavaScript Testing Framework with a focus on simplicity.
 * [Webpack](https://webpack.js.org/) - A JavaScript module bundler.
