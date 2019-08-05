@@ -103,9 +103,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="580.1214"
-     inkscape:cy="286.927"
+     inkscape:zoom="0.5"
+     inkscape:cx="508.22222"
+     inkscape:cy="61.723913"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -152,30 +152,6 @@
        height="100.82507"
        x="-696.11176"
        y="129.37415" />
-    <circle
-       style="opacity:1;vector-effect:none;fill:#80b3ff;fill-opacity:1;stroke:none;stroke-width:1.76388884;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="path4314"
-       cx="-236.7951"
-       cy="-295.30496"
-       r="12.699999" />
-    <circle
-       r="12.699999"
-       cy="-295.30496"
-       cx="-161.46268"
-       id="circle4316"
-       style="opacity:1;vector-effect:none;fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:1.76388884;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <circle
-       style="opacity:1;vector-effect:none;fill:#37c8ab;fill-opacity:1;stroke:none;stroke-width:1.76388884;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle4318"
-       cx="-86.130241"
-       cy="-295.30496"
-       r="12.699999" />
-    <circle
-       r="12.699999"
-       cy="-295.30496"
-       cx="-10.797804"
-       id="circle4320"
-       style="opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1.76388884;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.07568073px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.61292249"
