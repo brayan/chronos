@@ -2,6 +2,7 @@ p {
     color: #4d4d4d;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .container {
@@ -19,9 +20,12 @@ p {
 #minutes {
     display: inline;
     font-size: 80px;
+    font-weight: 300;
 }
 
 #seconds {
     display: inline;
-    font-size: 50px;
+    font-size: 80px;
+    font-weight: 100;
+    margin-left: 8px;
 }
