@@ -26,6 +26,7 @@ Based on the principles of Clean Architecture, the app has been divided into 3 l
 ![](design/screenshots/01.png)
 ![](design/screenshots/02.png)
 ![](design/screenshots/03.png)
+![](design/screenshots/04.png)
 
 ## Color palette
 ![](design/color-palette.svg)
