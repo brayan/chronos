@@ -31,4 +31,7 @@ Based on the principles of Clean Architecture, the app has been divided into 3 l
 ![](design/color-palette.svg)
 
 ## Icon design experiments
+Designed with [Inkscape](https://inkscape.org/).
+
+
 ![](design/icon-design-experiments.svg)

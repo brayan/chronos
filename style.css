@@ -1,8 +1,15 @@
-p {
-    color: #4d4d4d;
+* {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+html {
+    background-color: #FFF;
+    color: #4D4D4D;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 20px;
     font-weight: 300;
+    text-rendering: optimizeLegibility;
 }
 
 .container {
@@ -14,18 +21,15 @@ p {
 }
 
 #status {
-    font-size: 30px;
+    font-size: 28px;
 }
 
-#minutes {
+#minutes, #seconds {
     display: inline;
     font-size: 80px;
     font-weight: 100;
 }
 
 #seconds {
-    display: inline;
-    font-size: 80px;
-    font-weight: 100;
     margin-left: 8px;
 }

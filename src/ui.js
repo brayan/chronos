@@ -1,8 +1,8 @@
 import { statusTypes, createTimer } from "./domain";
 
-const COLOR_IN_PROGRESS = "#80b3ff";
-const COLOR_LAST_MINUTES = "#ff8080";
-const COLOR_BREAK = "#37c8ab";
+const COLOR_IN_PROGRESS = "#80B3FF";
+const COLOR_LAST_MINUTES = "#FF8080";
+const COLOR_BREAK = "#37C8AB";
 
 const sprintView = document.getElementById("sprint");
 const statusView = document.getElementById("status");
