@@ -7,11 +7,13 @@
     <meta property="og:site_name" content="Brayan Bedritchuk">
     <meta property="og:url" content="https://brayan.com.br/chronos">
     <meta property="og:title" content="Chronos | Brayan Bedritchuk">
-    <meta property="og:description" content="Inspired by the Pomodoro Technique, this nice little app is a countdown timer that follows my traditional work model: 50 minutes of focused work and 10 minute break.">
+    <meta property="og:description"
+        content="Inspired by the Pomodoro Technique, this nice little app is a countdown timer that follows my traditional work model: 50 minutes of focused work and 10 minute break.">
     <link rel="canonical" href="https://brayan.com.br/chronos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Inspired by the Pomodoro Technique, this nice little app is a countdown timer that follows my traditional work model: 50 minutes of focused work and 10 minute break." />
+    <meta name="description"
+        content="Inspired by the Pomodoro Technique, this nice little app is a countdown timer that follows my traditional work model: 50 minutes of focused work and 10 minute break." />
     <meta name="keywords" content="Brayan, Bedritchuk, Pomodoro, Technique, Chronos, PWA" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -28,9 +30,71 @@
     <div class="container">
         <p id="sprint"></p>
         <p id="status"></p>
-        <p id="minutes"></p>
-        <p id="seconds"></p>
+        <span id="minutes"></span>
+        <span id="seconds"></span>
     </div>
+
+    <svg class="svg-circular-progress" viewBox="0 0 36 36">
+            <path  d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#DDDDDD" stroke-width=".5"
+    stroke-dasharray="100, 100" />
+        <path id="circular-progress" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#444" stroke-width="1"
+            stroke-dasharray="50, 100" />
+    </svg>
+
+    <div class="container-circles">
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>90<span>%</span></h2>
+                    </div>
+                    <h2 class="text">In progress</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>85<span>%</span></h2>
+                    </div>
+                    <h2 class="text">Last minutes</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>60<span>%</span></h2>
+                    </div>
+                    <h2 class="text">Break</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
 
     <script src="./dist/bundle.js"></script>
 </body>

@@ -2,48 +2,66 @@ export const statusTypes = {
     IN_PROGRESS: 0,
     LAST_MINUTES: 1,
     BREAK: 2
-};
+}
 
 export function createTimer(date) {
-    let minutes = 0;
-    let seconds = 0;
+    let minutes = 0
+    let seconds = 0
 
     if (isInProgress(date)) {
-        minutes = 49 - date.getMinutes();
+        minutes = 49 - date.getMinutes()
     } else {
-        minutes = 59 - date.getMinutes();
+        minutes = 59 - date.getMinutes()
     }
 
-    seconds = 60 - date.getSeconds();
+    seconds = 60 - date.getSeconds()
 
     if (seconds == 60) {
-        seconds = 0;
-        minutes++;
+        seconds = 0
+        minutes++
     }
 
-    const sprint = date.getHours();
-    const status = getStatus(date, { minutes, seconds });
+    const sprint = date.getHours()
+    const status = getStatus(date, { minutes, seconds })
+    const progress = calculateProgress(date);
 
-    return { sprint, status, minutes, seconds };
+    return { sprint, status, minutes, seconds, progress }
 }
 
 function getStatus(date, timer) {
     if (isInTheLastMinutesOfTheSprint(date, timer)) {
-        return statusTypes.LAST_MINUTES;
+        return statusTypes.LAST_MINUTES
 
     } else if (isInProgress(date)) {
-        return statusTypes.IN_PROGRESS;
+        return statusTypes.IN_PROGRESS
 
     } else {
-        return statusTypes.BREAK;
+        return statusTypes.BREAK
     }
 }
 
 function isInProgress(date) {
-    return (date.getMinutes() >= 0 && date.getMinutes() < 50);
+    return (date.getMinutes() >= 0 && date.getMinutes() < 50)
 }
 
 function isInTheLastMinutesOfTheSprint(date, timer) {
-    const { minutes, seconds } = timer;
-    return isInProgress(date) && ((minutes < 10) || (minutes == 10 && seconds == 0));
+    const { minutes, seconds } = timer
+    return isInProgress(date) && ((minutes < 10) || (minutes == 10 && seconds == 0))
+}
+
+function calculateProgress(date) {
+    let progress = 0
+    if (isInProgress(date)) {
+        let progressSeconds = (date.getMinutes() * 60) + date.getSeconds()
+        progress = (progressSeconds * 100) / 3000
+    } else {
+        let progressSeconds = ((date.getMinutes() - 50) * 60) + date.getSeconds()
+        progress = (progressSeconds * 100) / 600
+    }
+
+    return round(progress)
+}
+
+function round(value) {
+    return Math.round(value * 100) / 100
 }
