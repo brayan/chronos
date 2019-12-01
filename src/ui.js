@@ -24,15 +24,15 @@ function setTimer(timer) {
 function setColors(timer) {
     switch (timer.status) {
         case statusTypes.IN_PROGRESS:
-            style.setProperty('--color-status', COLOR_IN_PROGRESS)
+            setStatusColor(COLOR_IN_PROGRESS)
             break
 
         case statusTypes.LAST_MINUTES:
-            style.setProperty('--color-status', COLOR_LAST_MINUTES)
+            setStatusColor(COLOR_LAST_MINUTES)
             break
 
         default:
-            style.setProperty('--color-status', COLOR_BREAK)
+            setStatusColor(COLOR_BREAK)
     }
 }
 
@@ -45,4 +45,8 @@ function setProgress(timer) {
         progress.style.strokeDasharray = `${timer.progress}, 100`
     }
     style.setProperty('--progress', timer.progress)
+}
+
+function setStatusColor(color) {
+    style.setProperty('--color-status', color)
 }
