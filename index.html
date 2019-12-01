@@ -29,23 +29,40 @@
 
 <body>
     <div class="container">
-        <p id="sprint"></p>
-        <p id="status"></p>
         <span id="minutes"></span>
         <span id="seconds"></span>
     </div>
 
     <svg class="svg-circular-progress" viewBox="0 0 36 36">
-            <path  d="M18 2.0845
+        <path d="M18 2.0845
             a 15.9155 15.9155 0 0 1 0 31.831
             a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#DDDDDD" stroke-width=".5"
-    stroke-dasharray="100, 100" />
-        <path id="circular-progress" d="M18 2.0845
+            stroke-dasharray="100, 100" />
+
+        <path class="progress" id="top-circular-progress" d="M18 2.0845
                     a 15.9155 15.9155 0 0 1 0 31.831
                     a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#444" stroke-width="1"
-            stroke-dasharray="50, 100" />
+            stroke-dasharray="0, 100" />
+
+        <path class="progress" id="circular-progress" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#444" stroke-width="1"
+            stroke-dasharray="0, 100" />
+
     </svg>
 
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then((reg) => {
+                        console.log('Service worker registered.', reg);
+                    });
+            });
+        }
+    </script>
+
+    <script src="./src/install.js"></script>
     <script src="./dist/bundle.js"></script>
 </body>
 

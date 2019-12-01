@@ -1,5 +1,7 @@
 :root {
     --color-background: #FFF;
+    --color-progress: #80B3FF;
+    --progress: 100;
 }
 
 * {
@@ -23,29 +25,25 @@ body {
 
 .container {
     /* border: #FF8080 solid 1px; */
+
+    /* transform: scale(1);
+    transition: transform 2s; */
+    /* animation: scale 1s linear 0s infinite alternate; */
 }
 
-#sprint {
-    display: none;
-    font-size: 1.5rem;
-}
-
-#status {
-    display: none;
-    font-size: 1.4rem;
+.container:hover {
+    transform: scale(2);
+    background: #000;
 }
 
 #minutes, #seconds {
+    color: var(--color-progress);
     font-size: 5rem;
     font-weight: 100;
 }
 
 #seconds {
     margin-left: .15em;
-}
-
-#minutes:hover {
-    color: #4D4D4D;
 }
 
 .svg-circular-progress {
@@ -55,24 +53,43 @@ body {
     /* border: #FF8080 solid 2px; */
 }
 
-#circular-progress {
-    stroke: #4CC790;
+.progress {
+    stroke: var(--color-progress);
     fill: none;
     stroke-width: 1;
     stroke-linecap: round;
-    /* animation-name: progress-animation;
-    animation-duration: 2s;
+}
+
+#circular-progress {
+    transition: stroke-width 1s;
+    animation: progress-color 1s linear 0s infinite alternate;
+    /* animation-name: progress-color;
+    animation-duration: 1s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-timing-function: linear; */
-    transition: stroke-width .5s;
+     */
 }
 
-.circular-progress:hover {
-    stroke-width: 2.5;
+.progress:hover {
+    stroke-width: 1.5;
 }
 
-@keyframes progress-animation {
-    from {stroke: #37C8AB;}
-    to {stroke: #199de9;}
+#top-circular-progress {
+    stroke: #fff;
+}
+
+@keyframes progress-color {
+    from {opacity: .7;}
+    to {opacity: 1;}
+}
+
+@keyframes progress-size {
+    from { stroke-dasharray: 0, 100 }
+    to { stroke-dasharray: var(--progress), 100 }
+}
+
+@keyframes scale {
+    from { transform: scale(1); }
+    to { transform: scale(1.2); }
 }
