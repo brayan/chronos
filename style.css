@@ -1,6 +1,6 @@
 :root {
     --color-background: #FFF;
-    --color-progress: #80B3FF;
+    --color-status: #80B3FF;
     --progress: 100;
 }
 
@@ -23,21 +23,8 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.container {
-    /* border: #FF8080 solid 1px; */
-
-    /* transform: scale(1);
-    transition: transform 2s; */
-    /* animation: scale 1s linear 0s infinite alternate; */
-}
-
-.container:hover {
-    transform: scale(2);
-    background: #000;
-}
-
-#minutes, #seconds {
-    color: var(--color-progress);
+.time {
+    color: var(--color-status);
     font-size: 5rem;
     font-weight: 100;
 }
@@ -54,21 +41,15 @@ body {
 }
 
 .progress {
-    stroke: var(--color-progress);
     fill: none;
-    stroke-width: 1;
+    stroke: var(--color-status);
     stroke-linecap: round;
+    stroke-width: 1;
 }
 
 #circular-progress {
-    transition: stroke-width 1s;
     animation: progress-color 1s linear 0s infinite alternate;
-    /* animation-name: progress-color;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-     */
+    transition: stroke-width 1s;
 }
 
 .progress:hover {
@@ -80,7 +61,7 @@ body {
 }
 
 @keyframes progress-color {
-    from {opacity: .7;}
+    from {opacity: .5;}
     to {opacity: 1;}
 }
 

@@ -24,15 +24,15 @@ function setTimer(timer) {
 function setColors(timer) {
     switch (timer.status) {
         case statusTypes.IN_PROGRESS:
-            style.setProperty('--color-progress', COLOR_IN_PROGRESS)
+            style.setProperty('--color-status', COLOR_IN_PROGRESS)
             break
 
         case statusTypes.LAST_MINUTES:
-            style.setProperty('--color-progress', COLOR_LAST_MINUTES)
+            style.setProperty('--color-status', COLOR_LAST_MINUTES)
             break
 
         default:
-            style.setProperty('--color-progress', COLOR_BREAK)
+            style.setProperty('--color-status', COLOR_BREAK)
     }
 }
 
