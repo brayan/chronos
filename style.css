@@ -23,17 +23,20 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.time {
-    color: var(--color-status);
-    font-size: 5rem;
-    font-weight: 100;
-}
-
 #seconds {
     margin-left: .15em;
 }
 
-.svg-circular-progress {
+#circular-progress {
+    animation: progress-color 1s linear 0s infinite alternate;
+    transition: stroke-width 1s;
+}
+
+#circular-progress-top {
+    stroke: #fff;
+}
+
+.circular-progress-container {
     position: fixed;
     height: 300px;
     width: 300px;
@@ -47,17 +50,14 @@ body {
     stroke-width: 1;
 }
 
-#circular-progress {
-    animation: progress-color 1s linear 0s infinite alternate;
-    transition: stroke-width 1s;
-}
-
 .progress:hover {
     stroke-width: 1.5;
 }
 
-#top-circular-progress {
-    stroke: #fff;
+.time {
+    color: var(--color-status);
+    font-size: 5rem;
+    font-weight: 100;
 }
 
 @keyframes progress-color {
