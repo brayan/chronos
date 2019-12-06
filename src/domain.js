@@ -1,4 +1,4 @@
-export const statusTypes = {
+export const timerStatus = {
     IN_PROGRESS: 0,
     LAST_MINUTES: 1,
     BREAK: 2
@@ -30,13 +30,13 @@ export function createTimer(date) {
 
 function getStatus(date, timer) {
     if (isInTheLastMinutesOfTheSprint(date, timer)) {
-        return statusTypes.LAST_MINUTES
+        return timerStatus.LAST_MINUTES
 
     } else if (isInProgress(date)) {
-        return statusTypes.IN_PROGRESS
+        return timerStatus.IN_PROGRESS
 
     } else {
-        return statusTypes.BREAK
+        return timerStatus.BREAK
     }
 }
 

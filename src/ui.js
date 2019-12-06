@@ -1,4 +1,4 @@
-import { statusTypes, createTimer } from "./domain"
+import { createTimer, timerStatus } from "./domain"
 
 const COLOR_IN_PROGRESS = "#80B3FF"
 const COLOR_LAST_MINUTES = "#FF8080"
@@ -23,11 +23,11 @@ function setTimer(timer) {
 
 function setColors(timer) {
     switch (timer.status) {
-        case statusTypes.IN_PROGRESS:
+        case timerStatus.IN_PROGRESS:
             setStatusColor(COLOR_IN_PROGRESS)
             break
 
-        case statusTypes.LAST_MINUTES:
+        case timerStatus.LAST_MINUTES:
             setStatusColor(COLOR_LAST_MINUTES)
             break
 

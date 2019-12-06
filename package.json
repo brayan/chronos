@@ -1,7 +1,7 @@
 {
   "name": "chronos",
   "version": "1.0.0",
-  "description": "Inspired by the Pomodoro Technique, this nice little app is a countdown timer that follows my traditional work model: 50 minutes of focused work and 10 minute break.",
+  "description": "Inspired by the Pomodoro Technique, this nice little app is a countdown timer that follows my traditional work model ∙ 50 minutes of focused work and 10 minute break.",
   "private": true,
   "scripts": {
     "test": "jest",

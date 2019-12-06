@@ -15,8 +15,8 @@
    viewBox="0 0 168.0805 76.553274"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.1 r15371"
-   sodipodi:docname="icon-iterations.svg">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="icon-design-experiments.svg">
   <defs
      id="defs2">
     <linearGradient
@@ -82,19 +82,6 @@
        x2="-120.44035"
        y2="200.74095"
        gradientUnits="userSpaceOnUse" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter5128"
-       x="-0.042750001"
-       width="1.0855"
-       y="-0.171"
-       height="1.342">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.2819063"
-         id="feGaussianBlur5130" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -103,9 +90,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="508.22222"
-     inkscape:cy="61.723913"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="250.31425"
+     inkscape:cy="193.83212"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -671,14 +658,6 @@
          style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#37c8ab;stroke-width:5.29166651;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          inkscape:connector-curvature="0" />
     </g>
-    <ellipse
-       style="opacity:0.25700001;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:2.64583325;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5128)"
-       id="ellipse4471"
-       cx="16.444853"
-       cy="142.61818"
-       rx="35.983334"
-       ry="8.9958334"
-       transform="matrix(0.33254301,0,0,0.21954723,-542.242,181.33968)" />
     <circle
        style="opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:2.15153241;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle4635"
