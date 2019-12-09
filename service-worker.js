@@ -1,3 +1,5 @@
+const VERSION = 1
+
 const FILES_TO_CACHE = [
     "/",
     "./style.css",
@@ -5,9 +7,9 @@ const FILES_TO_CACHE = [
   ];
 
   self.addEventListener("activate", () => {
-    caches.open("chronos-files-" + version).then(cache => {
+    caches.open("chronos-files-" + VERSION).then(cache => {
         cache.addAll(FILES_TO_CACHE).then(() => {
-            caches.delete("chronos-files-" + (version - 1))
+            caches.delete("chronos-files-" + (VERSION - 1))
         })
     })
 })
