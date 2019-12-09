@@ -16,15 +16,16 @@
     <meta name="description"
         content="Inspired by the Pomodoro Technique, this nice little app is a countdown timer that follows my traditional work model ∙ 50 minutes of focused work and 10 minute break." />
     <meta name="keywords" content="Brayan, Bedritchuk, Pomodoro, Technique, Chronos, PWA" />
+    <meta name="theme-color" content="#80B3FF" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Chronos">
-    <link rel="apple-touch-icon" href="/chronos/design/icons/152x152.png">
+    <link rel="apple-touch-icon" href="./design/icons/152x152.png">
     <title>Chronos | Brayan Bedritchuk</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
-    <link rel="shortcut icon" type="image/png" href="/chronos/design/icons/favicon-16x16.png" />
+    <link rel="shortcut icon" type="image/png" href="./design/icons/favicon-16x16.png" />
 </head>
 
 <body>
@@ -51,17 +52,7 @@
 
     </svg>
 
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/chronos/service-worker.js')
-                    .then((reg) => {
-                        console.log('Service worker registered.', reg);
-                    });
-            });
-        }
-    </script>
-
+    <script src="./src/register.js"></script>
     <script src="./src/install.js"></script>
     <script src="./dist/bundle.js"></script>
 </body>
