@@ -3,7 +3,8 @@ const VERSION = 1
 const FILES_TO_CACHE = [
     "./",
     "./style.css",
-    "./dist/bundle.js"
+    "./dist/bundle.js",
+    "./design/icons/favicon-16x16.png"
   ];
 
   self.addEventListener("activate", () => {
