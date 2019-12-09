@@ -1,7 +1,7 @@
 const VERSION = 1
 
 const FILES_TO_CACHE = [
-    "/",
+    "./",
     "./style.css",
     "./dist/bundle.js"
   ];
