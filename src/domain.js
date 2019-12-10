@@ -23,7 +23,7 @@ export function createTimer(date) {
 
     const sprint = date.getHours()
     const status = getStatus(date, { minutes, seconds })
-    const progress = calculateProgress(date);
+    const progress = calculateProgress(date)
 
     return { sprint, status, minutes, seconds, progress }
 }

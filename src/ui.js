@@ -7,7 +7,7 @@ const COLOR_BREAK = "#37C8AB"
 const minutesView = document.getElementById("minutes")
 const secondsView = document.getElementById("seconds")
 const progressListView = document.getElementsByClassName("progress")
-const style = document.documentElement.style;
+const style = document.documentElement.style
 
 export default function setViews(date) {
     const timer = createTimer(date)

@@ -6,7 +6,7 @@ const FILES_TO_CACHE = [
     "./style.css",
     "./dist/bundle.js",
     "./design/icons/favicon-16x16.png"
-  ];
+  ]
 
   self.addEventListener("activate", () => {
     caches.open("chronos-files-" + VERSION).then(cache => {
@@ -19,8 +19,6 @@ const FILES_TO_CACHE = [
 self.addEventListener("fetch", loadFromCacheStorage)
 
 function loadFromCacheStorage(event) {
-    console.log("Tried to load something from fetch");
-
     const request = event.request
 
     const response = caches.match(request)
