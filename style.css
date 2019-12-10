@@ -2,6 +2,7 @@
     --color-background: #FFF;
     --color-status: #4D4D4D;
     --progress: 100;
+    --minutes-font-size: 5rem;
 }
 
 * {
@@ -23,8 +24,10 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-#seconds {
-    margin-left: .15em;
+#minutes {
+    font-size: var(--minutes-font-size);
+    margin-right: .15em;
+    transition: font-size 1s;
 }
 
 #circular-progress {
@@ -40,7 +43,6 @@ body {
     position: fixed;
     height: 300px;
     width: 300px;
-    /* border: #FF8080 solid 2px; */
 }
 
 .progress {

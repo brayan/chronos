@@ -14,6 +14,7 @@ export default function setViews(date) {
     setTimer(timer)
     setColors(timer)
     setProgress(timer)
+    setMinutesFontSize(timer)
 }
 
 function setTimer(timer) {
@@ -44,9 +45,17 @@ function setProgress(timer) {
     for (let progress of progressListView) {
         progress.style.strokeDasharray = `${timer.progress}, 100`
     }
-    style.setProperty('--progress', timer.progress)
+    style.setProperty("--progress", timer.progress)
+}
+
+function setMinutesFontSize(timer) {
+    if (timer.minutes == 0) {
+        style.setProperty("--minutes-font-size", "0rem")
+    } else {
+        style.setProperty("--minutes-font-size", "5rem")
+    }
 }
 
 function setStatusColor(color) {
-    style.setProperty('--color-status', color)
+    style.setProperty("--color-status", color)
 }
