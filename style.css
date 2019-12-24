@@ -18,25 +18,22 @@ body {
     font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 1rem;
     font-weight: 300;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     min-height: 100vh;
     text-rendering: optimizeLegibility;
 }
 
+.time {
+    color: var(--color-status);
+    font-size: 5rem;
+    font-weight: 100;
+}
+
 #minutes {
-    font-size: var(--minutes-font-size);
+    font-size: var(--font-size-minutes);
     margin-right: .15em;
     transition: font-size 1s;
-}
-
-#circular-progress {
-    animation: progress-color 1s linear 0s infinite alternate;
-    transition: stroke-width 1s;
-}
-
-#circular-progress-top {
-    stroke: #fff;
 }
 
 .circular-progress-container {
@@ -48,6 +45,7 @@ body {
 .progress {
     fill: none;
     stroke: var(--color-status);
+    stroke-dasharray: var(--progress), 100;
     stroke-linecap: round;
     stroke-width: 1;
 }
@@ -56,10 +54,21 @@ body {
     stroke-width: 1.5;
 }
 
-.time {
-    color: var(--color-status);
-    font-size: 5rem;
-    font-weight: 100;
+#circular-progress-bottom {
+    fill: none;
+    stroke: #DDDDDD;
+    stroke-dasharray: 100, 100;
+    stroke-linecap: round;  
+    stroke-width: .5;
+}
+
+#circular-progress-background {
+    stroke: #fff;
+}
+
+#circular-progress {
+    animation: progress-color 1s linear 0s infinite alternate;
+    transition: stroke-width 1s;
 }
 
 @keyframes progress-color {

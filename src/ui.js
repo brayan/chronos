@@ -6,7 +6,6 @@ const COLOR_BREAK = "#37C8AB"
 
 const minutesView = document.getElementById("minutes")
 const secondsView = document.getElementById("seconds")
-const progressListView = document.getElementsByClassName("progress")
 const style = document.documentElement.style
 
 export default function setViews(date) {
@@ -37,19 +36,8 @@ function setColors(timer) {
     }
 }
 
-function addZeroIfNeeded(timer) {
-    return (timer >= 0 && timer < 10) ? ("0" + timer) : timer
-}
-
 function setProgress(timer) {
-    for (let progress of progressListView) {
-        progress.style.strokeDasharray = `${timer.progress}, 100`
-    }
     style.setProperty("--progress", timer.progress)
-}
-
-function setStatusColor(color) {
-    style.setProperty("--color-status", color)
 }
 
 function setFontSize(timer) {
@@ -58,6 +46,14 @@ function setFontSize(timer) {
     } else {
         setMinutesFontSize("5rem")
     }
+}
+
+function addZeroIfNeeded(timer) {
+    return (timer >= 0 && timer < 10) ? ("0" + timer) : timer
+}
+
+function setStatusColor(color) {
+    style.setProperty("--color-status", color)
 }
 
 function setMinutesFontSize(fontSize) {
