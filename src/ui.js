@@ -14,7 +14,7 @@ export default function setViews(date) {
     setTimer(timer)
     setColors(timer)
     setProgress(timer)
-    setMinutesFontSize(timer)
+    setFontSize(timer)
 }
 
 function setTimer(timer) {
@@ -48,14 +48,18 @@ function setProgress(timer) {
     style.setProperty("--progress", timer.progress)
 }
 
-function setMinutesFontSize(timer) {
+function setStatusColor(color) {
+    style.setProperty("--color-status", color)
+}
+
+function setFontSize(timer) {
     if (timer.minutes == 0) {
-        style.setProperty("--minutes-font-size", "0rem")
+        setMinutesFontSize("0rem")
     } else {
-        style.setProperty("--minutes-font-size", "5rem")
+        setMinutesFontSize("5rem")
     }
 }
 
-function setStatusColor(color) {
-    style.setProperty("--color-status", color)
+function setMinutesFontSize(fontSize) {
+    style.setProperty("--font-size-minutes", fontSize)
 }
