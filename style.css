@@ -1,5 +1,4 @@
 :root {
-    --color-background: #FFF;
     --color-status: #4D4D4D;
     --font-size-minutes: 5rem;
     --progress: 100;
@@ -12,7 +11,7 @@
 
 body {
     align-items: center;
-    background-color: var(--color-background);
+    background-color: #FFF;
     color: #4D4D4D;
     display: flex;
     font-family: 'Roboto', 'Arial', sans-serif;
@@ -63,7 +62,7 @@ body {
 }
 
 #circular-progress-background {
-    stroke: #fff;
+    stroke: #FFF;
 }
 
 #circular-progress {
