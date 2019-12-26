@@ -49,10 +49,6 @@ body {
     stroke-width: 1;
 }
 
-.progress:hover {
-    stroke-width: 1.5;
-}
-
 #circular-progress-bottom {
     fill: none;
     stroke: #DDD;
@@ -67,7 +63,6 @@ body {
 
 #circular-progress {
     animation: progress-color 1s linear 0s infinite alternate;
-    transition: stroke-width 1s;
 }
 
 @keyframes progress-color {
