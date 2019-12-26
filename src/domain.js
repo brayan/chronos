@@ -21,11 +21,10 @@ export function createTimer(date) {
         minutes++
     }
 
-    const sprint = date.getHours()
     const status = getStatus(date, { minutes, seconds })
     const progress = calculateProgress(date)
 
-    return { sprint, status, minutes, seconds, progress }
+    return { status, minutes, seconds, progress }
 }
 
 function getStatus(date, timer) {
