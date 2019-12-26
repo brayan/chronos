@@ -14,7 +14,7 @@ body {
     background-color: #FFF;
     color: #4D4D4D;
     display: flex;
-    font-family: 'Roboto', 'Arial', sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 1rem;
     font-weight: 300;
     flex-direction: column;
@@ -55,7 +55,7 @@ body {
 
 #circular-progress-bottom {
     fill: none;
-    stroke: #DDDDDD;
+    stroke: #DDD;
     stroke-dasharray: 100, 100;
     stroke-linecap: round;  
     stroke-width: .5;

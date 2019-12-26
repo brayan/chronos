@@ -56,6 +56,6 @@ function setStatusColor(color) {
     style.setProperty("--color-status", color)
 }
 
-function setMinutesFontSize(fontSize) {
-    style.setProperty("--font-size-minutes", fontSize)
+function setMinutesFontSize(size) {
+    style.setProperty("--font-size-minutes", size)
 }
