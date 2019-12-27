@@ -16,7 +16,7 @@ self.addEventListener("activate", () => {
     })
 })
 
-self.addEventListener("fetch", () => {
+self.addEventListener("fetch", (event) => {
     const request = event.request
     const response = caches.match(request)
         .then(cache => cache ? cache : fetch(request))
