@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "br.com.sailboat.chronos",
+               "sha256_cert_fingerprints": ["64:DB:5A:2F:5B:88:91:51:98:76:A3:9A:49:73:8A:1E:01:84:FC:DA:7C:E2:7C:05:31:50:AD:5C:09:63:7B:A5"] }
+}]
