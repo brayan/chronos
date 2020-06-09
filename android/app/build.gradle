@@ -24,7 +24,7 @@ def twaManifest = [
     launchUrl: '/chronos', // The start path for the TWA. Must be relative to the domain.
     name: 'Chronos', // The name shown on the Android Launcher.
     themeColor: '#2196F3', // The color used for the status bar.
-    navigationColor: '#1976D2', // The color used for the navigation bar.
+    navigationColor: '#333333', // The color used for the navigation bar.
     backgroundColor: '#BBDEFB', // The color used for the splash screen background.
     enableNotifications: false, // Set to true to enable notification delegation.
     // Add shortcuts for your app here. Every shortcut must include the following fields:
@@ -46,8 +46,8 @@ android {
         applicationId twaManifest.applicationId
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 3
-        versionName "1.0.1"
+        versionCode 4
+        versionName "1.0.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         // The name for the application on the Android Launcher
